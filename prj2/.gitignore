@@ -1,6 +1,15 @@
-# .gitignore
+# Terraform files
 .terraform/
 *.tfstate
 *.tfstate.*
 terraform.tfvars
 .terraform.lock.hcl
+
+# SSH keys
+*.pem
+ansible-test-key-pair-rsa.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+EOF
